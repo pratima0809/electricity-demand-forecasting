@@ -1,0 +1,22 @@
+{
+    "model_type": "<class 'sklearn.ensemble._gb.GradientBoostingRegressor'>",
+    "num_features": 11,
+    "features": [
+        "Hour",
+        "DayOfWeek",
+        "Month",
+        "DayOfYear",
+        "Year",
+        "IsWeekend",
+        "Lag_1",
+        "Lag_24",
+        "Lag_168",
+        "Rolling_Mean_24",
+        "Rolling_Mean_168"
+    ],
+    "MAE": 524.1456451358467,
+    "MSE": 487757.2171633909,
+    "RMSE": 698.3961749346792,
+    "MAPE": 1.6155152671100392,
+    "R2": 0.9883351209736619
+}
